@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+body h1{
+    font-family: "Pacifico" ;
+    font-weight: normal;
+    font-size: 2.5em;
+
+}
+
+body p, form{
+    font-family: "Noto Sans";
+    font-size: 13px;
+    font-weight: normal;
+
+}
+
+body h2, h3{
+    font-family: "kanit";
+    font-weight: bold;
+    color:  rgb(8, 90, 34);
+}
+
+header{
+    background-color: rgb(15,172,65);
+    color: aliceblue;
+    padding: 0px ;
+}
+
+header li{
+    display: inline;
+    margin-left: 10px;
+}
+
+header li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Kanit";
+    cursor: pointer;
+}
+
+header li a:hover{
+    font-size: 1.2em;
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+section #lojaimg{
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+section img{
+    width: 60px;
+    margin-top: 8px;
+}
+
+section li{
+    display: inline;
+    padding: 6px;
+}
+
+section .container{
+    display: flex;
+}
+
+section p{
+    color: rgb(5, 63, 24);
+}
+
+.sobre {
+    margin-top: 32px;
+}
+
+section p, h3 form{
+    text-align: justify;
+    margin-top: 8px;
+}
+
+#contatos{
+    margin-top: 100px;
+}
+
+#contatos .container{
+    display: block;
+}
+
+.subsection{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subsection div{
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+
+form input, textarea, button{
+    margin-bottom: 8px ;
+}
+
+
+button{
+    background-color: rgb(15,172,65);
+    color: aliceblue;
+    font-family: "Kanit";
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(5, 63, 24);
+}
+
+input ,textarea:focus{
+    outline-color: rgb(8, 90, 34);
+}
+
+textarea{
+    resize: none;
+    height: 60px;
+}
+
+#redes li img{
+    display: inline;
+    width: 30px;
+    cursor: pointer;
+    ;
+}
+
+form input, 
+form textarea, 
+form button{
+    display: block;
+    width: 230px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+
+footer{
+    font-family: "Kanit";
+    color: aliceblue;
+    background-color: rgb(15,172,65);
+    display: block;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer a:hover{
+    font-size: 20px;
+}
